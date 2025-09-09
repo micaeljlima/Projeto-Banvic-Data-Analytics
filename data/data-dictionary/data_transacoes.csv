@@ -1,0 +1,6 @@
+variavel,descricao,tipo,subtipo
+cod_transacao,Código identificador único da transação,qualitativa,nominal identificador
+num_conta,Número da conta associada à transação (chave estrangeira para tabela contas),qualitativa,nominal relacional
+data_transacao,Data e hora em que a transação foi realizada,quantitativa,discreta temporal
+nome_transacao,"Tipo ou descrição da transação (ex: Saque, Depósito, Transferência)",qualitativa,nominal
+valor_transacao,"Valor da transação, negativo para saques e positivo para depósitos",quantitativa,contínua

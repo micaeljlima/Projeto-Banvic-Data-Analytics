@@ -1,0 +1,13 @@
+variavel,descricao,tipo,subtipo
+cod_proposta,Código identificador único da proposta de crédito,qualitativa,nominal identificador
+cod_cliente,Código do cliente que solicitou a proposta (chave estrangeira para tabela clientes),qualitativa,nominal relacional
+cod_colaborador,Código do colaborador que recebeu ou analisou a proposta (chave estrangeira para tabela colaboradores),qualitativa,nominal relacional
+data_entrada_proposta,Data em que a proposta foi registrada no sistema (sem informação de hora),quantitativa,discreta temporal
+taxa_juros_mensal,Taxa de juros aplicada à proposta de crédito (mensal),quantitativa,contínua
+valor_proposta,Valor total solicitado pelo cliente na proposta de crédito,quantitativa,contínua
+valor_financiamento,Valor que será efetivamente financiado após entrada e ajustes,quantitativa,contínua
+valor_entrada,Valor de entrada pago pelo cliente na proposta,quantitativa,contínua
+valor_prestacao,Valor da parcela mensal calculada para a proposta,quantitativa,contínua
+quantidade_parcelas,Número de parcelas previstas para pagamento do financiamento,quantitativa,discreta
+carencia,"Categoria ordinal que indica o nível da carência (Muito Baixa, Baixa, Média Alta, Alta)",qualitativa,ordinal
+status_proposta,"Situação atual da proposta no sistema (ex: Enviada, Aprovada, Recusada)",qualitativa,nominal

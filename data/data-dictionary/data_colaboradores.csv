@@ -1,0 +1,10 @@
+variavel,descricao,tipo,subtipo
+cod_colaborador,Código identificador único do colaborador no sistema,qualitativa,nominal identificador
+primeiro_nome,Primeiro nome do colaborador,qualitativa,nominal
+ultimo_nome,Último nome ou sobrenome do colaborador,qualitativa,nominal
+nome_completo,Nome completo do colaborador (junção entre primeiro nome e último nome),qualitativa,nominal derivada
+email,"Endereço de e-mail do colaborador, utilizado como meio de contato",qualitativa,nominal identificador
+cpf,"Número de CPF do colaborador, identificador pessoal único",qualitativa,nominal identificador sensível
+data_nascimento,Data de nascimento do colaborador,quantitativa,contínua temporal
+endereco,"Endereço completo do colaborador (rua, número, bairro, cidade e estado)",qualitativa,nominal
+cep,Código de Endereçamento Postal (CEP) do colaborador,qualitativa,nominal identificador geográfico

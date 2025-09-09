@@ -1,0 +1,3 @@
+variavel,descricao,tipo,subtipo
+cod_colaborador,Identificador único do colaborador dentro do sistema,qualitativa,nominal identificador
+cod_agencia,Código da agência a qual o colaborador está vinculado (chave estrangeira para tabela de agências),qualitativa,nominal relacional

@@ -1,0 +1,8 @@
+variavel,descricao,tipo,subtipo
+cod_agencia,"Código identificador único da agência, utilizado como chave primária no sistema",qualitativa,nominal identificador
+nome,Nome oficial da agência bancária,qualitativa,nominal
+endereco,"Endereço completo da agência (rua, número, bairro, cidade e estado)",qualitativa,nominal
+cidade,Cidade onde a agência está localizada,qualitativa,nominal geográfica
+uf,Unidade Federativa (estado) onde a agência está localizada,qualitativa,nominal geográfica
+data_abertura,Data de abertura da agência,quantitativa,contínua temporal
+tipo_agencia,"Classificação da agência, podendo ser Física ou Digital",qualitativa,nominal categórica

@@ -1,0 +1,10 @@
+variavel,descricao,tipo,subtipo
+num_conta,"Número da conta bancária, usado como identificador único da conta",qualitativa,nominal identificador
+cod_cliente,Código do cliente titular da conta (chave estrangeira para tabela clientes),qualitativa,nominal relacional
+cod_agencia,Código da agência onde a conta foi aberta (chave estrangeira para tabela agências),qualitativa,nominal relacional
+cod_colaborador,Código do colaborador responsável pelo atendimento na abertura da conta (chave estrangeira para tabela colaboradores),qualitativa,nominal relacional
+tipo_conta,Tipo da conta: PF (Pessoa Física) ou PJ (Pessoa Jurídica),qualitativa,nominal binária
+data_abertura,Data em que a conta foi aberta,quantitativa,discreta temporal
+saldo_total,"Saldo total da conta, incluindo valores que ainda não estão disponíveis",quantitativa,contínua
+saldo_disponivel,Saldo disponível para movimentação na conta,quantitativa,contínua
+data_ultimo_lancamento,Data do último lançamento registrado na conta,quantitativa,discreta temporal

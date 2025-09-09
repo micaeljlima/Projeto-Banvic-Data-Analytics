@@ -1,0 +1,12 @@
+variavel,descricao,tipo,subtipo
+cod_cliente,"Código identificador único do cliente, utilizado como chave primária no sistema",qualitativa,nominal identificador
+primeiro_nome,Primeiro nome do cliente,qualitativa,nominal
+ultimo_nome,Último nome ou sobrenome do cliente,qualitativa,nominal
+nome_completo,Nome completo do cliente (junção entre primeiro e último nome),qualitativa,nominal derivada
+email,"Endereço de e-mail do cliente, utilizado como meio de contato",qualitativa,nominal identificador
+tipo_cliente,Classificação do cliente: PF (Pessoa Física) ou PJ (Pessoa Jurídica),qualitativa,nominal categórica
+data_inclusao,Data de inclusão do cliente no sistema (sem horário),quantitativa,contínua temporal
+cpfcnpj,"Número de CPF (Pessoa Física) ou CNPJ (Pessoa Jurídica), identificador pessoal ou empresarial único",qualitativa,nominal identificador sensível
+data_nascimento,Data de nascimento do cliente (quando Pessoa Física),quantitativa,contínua temporal
+endereco,"Endereço completo do cliente (rua, número, bairro, cidade e estado)",qualitativa,nominal
+cep,Código de Endereçamento Postal (CEP) do cliente,qualitativa,nominal identificador geográfico

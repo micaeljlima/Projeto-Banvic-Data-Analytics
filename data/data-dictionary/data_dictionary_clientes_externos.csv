@@ -1,0 +1,19 @@
+variavel,descricao,tipo,subtipo
+Numero_Linha,Número sequencial da linha no dataset,quantitativa,discreta identificador técnico
+ID_Cliente,Identificador único do cliente,qualitativa,nominal identificador
+Sobrenome,Sobrenome do cliente,qualitativa,nominal
+Pontuação_Credito,Pontuação de crédito do cliente atribuída pela instituição,quantitativa,discreta
+Pais,País de residência do cliente,qualitativa,nominal
+Genero,Gênero do cliente (Masculino/Feminino),qualitativa,nominal binária
+Idade,Idade do cliente em anos,quantitativa,discreta
+Tempo_Relacionamento,Tempo em anos que o cliente mantém relacionamento com o banco,quantitativa,discreta
+Saldo,Saldo atual do cliente na conta bancária,quantitativa,contínua
+Numero_Produtos,Número de produtos adquiridos pelo cliente,quantitativa,discreta
+Possui_Cartao_Credito,Indica se o cliente possui cartão de crédito (Sim/Não),qualitativa,nominal binária
+Membro_Ativo,Indica se o cliente é um membro ativo (Sim/Não),qualitativa,nominal binária
+Salario_Estimado,Estimativa do salário anual do cliente,quantitativa,contínua
+Saiu,Indica se o cliente encerrou o relacionamento com o banco (Sim/Não),qualitativa,nominal binária
+Reclamou,Indica se o cliente registrou alguma reclamação (Sim/Não),qualitativa,nominal binária
+Pontuaçao_Satisfaçao,Pontuação de satisfação atribuída pelo cliente,quantitativa,discreta ordinal
+Tipo_Cartao,"Tipo de cartão associado ao cliente (ex: Gold, Platinum, Diamond)",qualitativa,nominal categórica
+Pontos_Acumulados,Quantidade de pontos de fidelidade acumulados pelo cliente,quantitativa,discreta
