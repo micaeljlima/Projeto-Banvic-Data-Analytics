@@ -140,3 +140,31 @@ No início, a instituição enfrenta diversos problemas relacionados à governan
   - Gráficos: mapa (saldo por país), funil (satisfação de clientes ativos), barras (salário, produtos e saldo por cliente), treemap (distribuição por tipo de cartão).  
 
 
+## Organização do Repositório:
+
+------------
+
+
+    ├── requirements.txt             <- O arquivo de requisitos para reproduzir o ambiente de análise, por exemplo, gerado com `pip congelamento > requisitos.txt
+    │
+    ├── LICENSE
+    │
+    ├── README.md                    <- O Readme de nível superior para desenvolvedores que usam esse projeto
+    │ 
+    ├── readme                       <- contém os arquivos de capa e arquitetura do projeto visualizados no readme.
+    │
+    │
+    ├── Documentação                 <- Contém a apresentação em pdf com todas as etapas do projeto registradas.
+    │
+    ├── powerBI                      <- Contém os arquivos referentes à construção do Painel Interativo.
+    │       ├── Arquivo              <- Contém o arquivo do Painel Interativo para ser baixado e rodado na própria máquina, através do Power BI Desktop.
+    │       ├── Layouts              <- Contém os imagens utilizadas como fundo de parede nas páginas do Painel.
+    │       ├── Relatorios           <- Contém capturas de tela das páginas do relatório do Power BI.
+    │  
+    ├── data                         <- Contém os datasets utilizados no projeto.
+    │       ├── data-dictionary      <- Contém os dicionários de dados criados durante o projeto.
+    │       ├── pos-processamento    <- Contém os datasets após toda a etapa de pré-processamento de dados, podendo ser utilizado no Power BI.
+    │       ├── pre-processamento    <- Contém os datasets recebidos para realizar o projeto, sendo usados no pré-processamento dos dados.
+    │
+    └── notebooks                    <- caderno jupyter notebook utilizado para o pré-processamento de dados
+
