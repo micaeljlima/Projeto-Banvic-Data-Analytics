@@ -37,3 +37,64 @@ No início, a instituição enfrenta diversos problemas relacionados à governan
 | Proposta_Credito    | cod_proposta, cod_cliente, cod_colaborador, data_entrada_proposta, taxa_juros_mensal, valor_proposta, valor_financiamento, valor_entrada, valor_prestacao, quantidade_parcelas, carencia, status_proposta                                                        | Propostas de crédito solicitadas por clientes. |
 | Transacoes          | cod_transacao, num_conta, data_transacao, nome_transacao, valor_transacao                                                                                                                                                                                       | Registro de movimentações financeiras realizadas nas contas. |
 | Clientes_Externos   | Numero_Linha, ID_Cliente, Sobrenome, Pontuação_Credito, Pais, Genero, Idade, Tempo_Relacionamento, Saldo, Numero_Produtos, Possui_Cartao_Credito, Membro_Ativo, Salario_Estimado, Saiu, Reclamou, Pontuaçao_Satisfaçao, Tipo_Cartao, Pontos_Acumulados           | Dataset externo com informações complementares de clientes de outro banco. |
+
+
+## Etapas do Desenvolvimento:
+
+- **Pré-processamento de Dados**:
+  - **Ferramenta**: Python no Jupyter Notebook  
+  - **Importação**: Carregamento dos arquivos de dados no ambiente do Visual Studio Code  
+  - **Tratamento de valores nulos**: Identificação e substituição de valores faltantes  
+  - **Transformação de dados**: Conversão de tipos para os formatos ideais (string, datetime, categórico)  
+  - **Tratamento de duplicatas**: Verificação e remoção de registros duplicados para evitar inconsistências  
+  - **Tradução de dataset**: Necessária apenas no dataset externo  
+  - **Novas colunas**: Criação de variáveis adicionais conforme necessidade analítica  
+  - **Dicionário de dados**: Desenvolvimento de dicionário com variáveis, descrições, tipos e subtipos de cada dataset  
+
+- **Construção do Painel no Power BI**:
+  - **Planejamento**: Identificação e organização dos dados a serem utilizados  
+  - **Carregamento**: Upload dos dados pós-processados no Power BI  
+  - **Criação de páginas**: Desenvolvimento de 7 páginas temáticas (Agências, Colaboradores, Clientes, Propostas de Crédito, Transações, Contas e Clientes Externos) e uma capa  
+  - **Funcionalidades interativas**: Botões para limpar filtros, visualizar tabelas de dados, segmentadores em gráficos, filtros e navegação entre páginas  
+
+- **Design de Layouts no Figma**:
+  - **Ferramenta**: Figma  
+  - **Layouts**: Produção dos layouts das páginas do relatório  
+  - **Consistência visual**: Uso de paleta de cores da marca e logotipo fictício com diferentes tons  
+  - **Mascote**: Criação do “Dolarinho”, moeda animada que representa a marca e está presente na logo  
+  - **Integração**: Aplicação do design no painel do Power BI  
+
+- **Documentação do Projeto**:
+  - **Detalhamento**: Registro completo de todas as etapas do projeto  
+  - **Clareza**: Explicação estruturada e objetiva sobre pré-processamento, construção do painel e design de layouts  
+  - **Design**: Foco nas cores definidas no logotipo, aplicadas ao painel interativo para reforçar a identidade visual  
+
+## Capturas das Páginas
+<table>
+  <tr>
+    <td><img src="powerBI\Relatorios\Página1.png" alt="pagina1" width="400"/></td>
+    <td><img src="powerBI\Relatorios\Página2.png" alt="pagina2" width="400"/></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td><img src="powerBI\Relatorios\Página3.png" alt="pagina3" width="400"/></td>
+    <td><img src="powerBI\Relatorios\Página4.png" alt="pagina4" width="400"/></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td><img src="powerBI\Relatorios\Página5.png" alt="pagina5" width="400"/></td>
+    <td><img src="powerBI\Relatorios\Página6.png" alt="pagina6" width="400"/></td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td><img src="powerBI\Relatorios\Página7.png" alt="pagina7" width="400"/></td>
+    <td><img src="powerBI\Relatorios\Página6.png" alt="Capa" width="400"/></td>
+  </tr>
+</table>
+
+
