@@ -69,7 +69,7 @@ No início, a instituição enfrenta diversos problemas relacionados à governan
   - **Clareza**: Explicação estruturada e objetiva sobre pré-processamento, construção do painel e design de layouts  
   - **Design**: Foco nas cores definidas no logotipo, aplicadas ao painel interativo para reforçar a identidade visual  
 
-## Capturas das Páginas
+## Descrição do Painel:
 <table>
   <tr>
     <td><img src="powerBI\Relatorios\Página1.png" alt="pagina1" width="400"/></td>
@@ -93,8 +93,50 @@ No início, a instituição enfrenta diversos problemas relacionados à governan
 <table>
   <tr>
     <td><img src="powerBI\Relatorios\Página7.png" alt="pagina7" width="400"/></td>
-    <td><img src="powerBI\Relatorios\Página6.png" alt="Capa" width="400"/></td>
+    <td><img src="powerBI\Layouts\capa.png" alt="Capa" width="400"/></td>
   </tr>
 </table>
+
+- **Agências**:
+  - Cartão com endereço (usado como filtro) e botões de interação (limpar filtros, alternar entre gráficos/tabelas).  
+  - Indicadores: saldo total, saldo disponível, transações, contagem de agências, clientes e colaboradores.  
+  - Filtros: tipo de agência, identificadores (cliente, agência, colaborador), datas (transação e abertura).  
+  - Gráficos: mapas de saldo total e disponível por cidade; colunas + linha (valor e média de transações).  
+
+- **Colaboradores**:
+  - Cartão de contato como filtro, botões de interação (limpar filtros, gráficos/tabelas).  
+  - Indicadores: propostas de crédito, valor de transações, valor de entrada, contagem de colaboradores.  
+  - Filtros: identificadores (cliente, agência, colaborador, proposta) e data de nascimento.  
+  - Gráficos: colunas comparativas (financiamento x transações), árvore hierárquica (status e carência), barras empilhadas (entrada x propostas).  
+
+- **Clientes**:
+  - Cartão de contato como filtro, botões de interação (limpar filtros, gráficos/tabelas).  
+  - Indicadores: propostas de crédito, prestações, propostas, saldo, saldo disponível, financiamento, contagem de clientes.  
+  - Filtros: identificadores (cliente, agência, colaborador, conta), datas (nascimento e inclusão).  
+  - Gráficos: combinado (saldo x saldo disponível), linhas (evolução temporal), colunas comparativas (financiamento x parcelas).  
+
+- **Propostas de Crédito**:
+  - Botões de interação (limpar filtros, gráficos/tabelas).  
+  - Indicadores: propostas de crédito, prestações, financiamento, entrada, parcelas, contagem de propostas.  
+  - Filtros: identificadores (cliente, colaborador, proposta), parcelas e data de entrada.  
+  - Gráficos: linhas (evolução de proposta, financiamento, entrada e prestações), árvore (quantidade x carência), funil (status das propostas).
+
+- **Transações**:
+  - Botões de interação: limpar filtros e alternar gráficos/tabelas.  
+  - Indicadores: total, média e contagem de transações.  
+  - Filtros: identificadores (cliente, agência, colaborador, conta, transação) e data da transação.  
+  - Gráficos: comparativos de médias (dias da semana x todas as datas), linhas (quantidade por dia da semana x todas as datas) e barras (contagem e valor total por tipo de transação).  
+
+- **Contas**:
+  - Botões de interação: limpar filtros e alternar gráficos/tabelas.  
+  - Indicadores: saldo total, saldo disponível, total de transações, médias (saldo e saldo disponível), contagem de contas.  
+  - Filtros: identificadores (cliente, agência, colaborador, conta), datas (abertura da conta e último lançamento).  
+  - Gráficos: linhas (saldo x saldo disponível – total e média, por data de lançamento e por data de abertura), dispersão (saldo total x saldo disponível por conta), barras (total de transações por conta).  
+
+- **Clientes Externos**:
+  - Botões de interação: limpar filtros e alternar gráficos/tabelas.  
+  - Indicadores: contagem de clientes, médias (idade, produtos, pontos acumulados, salário estimado, saldo, satisfação, tempo de relacionamento).  
+  - Filtros: identificadores (cliente), gênero, status (ativo/inativo), reclamações e posse de cartão de crédito.  
+  - Gráficos: mapa (saldo por país), funil (satisfação de clientes ativos), barras (salário, produtos e saldo por cliente), treemap (distribuição por tipo de cartão).  
 
 
