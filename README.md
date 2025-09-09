@@ -143,8 +143,6 @@ No início, a instituição enfrenta diversos problemas relacionados à governan
 ## Organização do Repositório:
 
 ------------
-
-
     ├── requirements.txt             <- O arquivo de requisitos para reproduzir o ambiente de análise, por exemplo, gerado com `pip congelamento > requisitos.txt
     │
     ├── LICENSE
@@ -167,4 +165,15 @@ No início, a instituição enfrenta diversos problemas relacionados à governan
     │       ├── pre-processamento    <- Contém os datasets recebidos para realizar o projeto, sendo usados no pré-processamento dos dados.
     │
     └── notebooks                    <- caderno jupyter notebook utilizado para o pré-processamento de dados
+
+
+## Conclusão:
+
+- **Conclusão**:
+  - **Pré-processamento**: Fase fundamental para garantir a qualidade dos dados. Verificação de valores nulos, duplicatas, transformações e exploração detalhada evitou inconsistências e permitiu análises confiáveis.  
+  - **Relatório no Power BI**: Dados organizados em visualizações claras e interativas, com páginas segmentadas conforme tabelas e relacionamentos, facilitando a interpretação e geração de insights. Segmentadores tornam a navegação mais intuitiva e ágil.  
+  - **Design e identidade visual**: Cores extraídas do banner oficial e utilização do mascote “Dolarinho” garantiram coerência estética e experiência agradável ao usuário.  
+  - **Documentação e apresentação**: Registro completo de todas as etapas, integrando pré-processamento, construção do relatório e design. Template adaptado no Canva reforçou a identidade visual e a consistência entre apresentação e relatório.
+
+
 
