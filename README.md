@@ -1,18 +1,18 @@
-# Projeto: Análise de Dados do Banco Vitória
+# <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDU5ZDk1eGc1bnoyNzdiOG9xNGRibjN0bncxMjJxZHkxcnNrcjVqeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/JglB9YHQvWLYQ9S6mJ/giphy.gif" alt="coin1" width="50" height="50" /> Projeto: Análise de Dados do Banco Vitória
 ![banner](readme/banvic_logo.jpeg)
 
-## Introdução:
+## <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTg1bHhrN2YzaWtrcWgwN3R4am83dmtxdHJpbHJ4ZWQzbnA4MjRmaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/EV0co3ZK1v4o6Dx4SW/giphy.gif" alt="coin2" width="35" height="35" /> Introdução:
 Este projeto tem como foco a construção de um painel interativo no Power BI, como produto final, passando por etapas de pré-processamento, manipulação, modelagem e visualização de dados. Os dados utilizados pertencem a um banco fictício chamado Banco Vitória (ou “Banco Vic”).
 
-## Arquitetura do Projeto:
+## <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWVld29ndmtoZWF4Z2c5NGYwcTBxd2k2MDJxcml0MGJvN3pxbHh6eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/ovMx9vlgBI6gy1RJAj/giphy.gif" alt="coin3" width="35" height="35" /> Arquitetura do Projeto:
 
 ![arquitetura_projeto](readme/Arquitetura_BanVic.gif)
 
-## Justificativa:
+## <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXBhMHh1bG9mNHN6MWRtMDQ3MzgybWlmdHZ4ZTQxd2Y3azZmNXpxeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/W4IlCCGqbYLZueOLF2/giphy.gif" alt="coin4" width="35" height="35" /> Justificativa:
 
 No início, a instituição enfrenta diversos problemas relacionados à governança de dados, estando presa a métodos ultrapassados e a uma cultura conservadora entre os colaboradores. Diante desse cenário, surgiu a proposta deste projeto: apresentar um novo ponto de vista sobre como os dados podem ser trabalhados dentro da empresa, de forma mais moderna, eficiente e estratégica.
 
-## Tecnologias Utilizadas:
+## <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTQ5eGl5YzFnanExbm8yaTk4NnV3ZGIxOHY2M2NoZTNmbmppeGhpNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/8JmMWeXLqj7Dy1BNAL/giphy.gif" alt="coin5" width="35" height="35" /> Tecnologias Utilizadas:
 
 <div align="center" style="display: inline_block">
   <img align="center" alt="github" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
@@ -25,7 +25,7 @@ No início, a instituição enfrenta diversos problemas relacionados à governan
   <img align="center" src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" alt="icon canva">
 </div>
 
-## Datasets e seus Atributos:
+## <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExajJ2cmN0Mmh2cmw4NGQxMXZudDkweTc2cGkxbG94a3U4bmRtYjlxMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/UVdyOkGFK9OkN1gNAo/giphy.gif" alt="coin6" width="35" height="35" /> Datasets e seus Atributos:
 
 | Dataset             | Variáveis                                                                                                                                                                                                                                                       | Descrição                                                                 |
 |---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
@@ -39,7 +39,7 @@ No início, a instituição enfrenta diversos problemas relacionados à governan
 | Clientes_Externos   | Numero_Linha, ID_Cliente, Sobrenome, Pontuação_Credito, Pais, Genero, Idade, Tempo_Relacionamento, Saldo, Numero_Produtos, Possui_Cartao_Credito, Membro_Ativo, Salario_Estimado, Saiu, Reclamou, Pontuaçao_Satisfaçao, Tipo_Cartao, Pontos_Acumulados           | Dataset externo com informações complementares de clientes de outro banco. |
 
 
-## Etapas do Desenvolvimento:
+## <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3FtcG5ja2swczY3Nnc3dXB2dnMwa2Z0aGxhbnlkbm93enJldGF3ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/sZyj9C8YAhoiMX80s1/giphy.gif" alt="coin7" width="35" height="35" /> Etapas do Desenvolvimento:
 
 - **Pré-processamento de Dados**:
   - **Ferramenta**: Python no Jupyter Notebook  
@@ -69,7 +69,7 @@ No início, a instituição enfrenta diversos problemas relacionados à governan
   - **Clareza**: Explicação estruturada e objetiva sobre pré-processamento, construção do painel e design de layouts  
   - **Design**: Foco nas cores definidas no logotipo, aplicadas ao painel interativo para reforçar a identidade visual  
 
-## Descrição do Painel:
+## <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXB1b3J5cjhsaXloNTgzbWZ6aTBvdTh4MWlkZ2hwM3V5MzJoa29sOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/cAjV99wD89Hk9dTFRo/giphy.gif" alt="coin8" width="35" height="35" /> Descrição do Painel:
 <table>
   <tr>
     <td><img src="powerBI\Relatorios\Página1.png" alt="pagina1" width="400"/></td>
@@ -140,7 +140,7 @@ No início, a instituição enfrenta diversos problemas relacionados à governan
   - Gráficos: mapa (saldo por país), funil (satisfação de clientes ativos), barras (salário, produtos e saldo por cliente), treemap (distribuição por tipo de cartão).  
 
 
-## Organização do Repositório:
+## <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXRhajZ4dDNvN2ZhaHE4YTk4MzFmN2hncDQ2dmFpb3R2aTh6d21iMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/spZfEMbbXc3K0vbdEs/giphy.gif" alt="coin9" width="35" height="35" /> Organização do Repositório:
 
 ------------
     ├── requirements.txt             <- O arquivo de requisitos para reproduzir o ambiente de análise, por exemplo, gerado com `pip congelamento > requisitos.txt
@@ -167,7 +167,7 @@ No início, a instituição enfrenta diversos problemas relacionados à governan
     └── notebooks                    <- caderno jupyter notebook utilizado para o pré-processamento de dados
 
 
-## Instruções para Configurar e Executar o Projeto:
+## <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExanJsamN3cXE2aGVraW5sdjhmZnJocHJ5amg5eXpoNzM5N2FmcDExMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/ME8P6ce7Mn3gnRbird/giphy.gif" alt="coin10" width="35" height="35" /> Instruções para Configurar e Executar o Projeto:
 
 * **Pré-requisitos**:
 
@@ -237,7 +237,7 @@ code .
 
 
 
-## Conclusão:
+## <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnE3OTdra21nZTZpOGd2dXNjdTQ5MTRwcDlzcjlwemk0Zmg3dTI3dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/SGihMblBbV1ARL64Gd/giphy.gif" alt="coin11" width="35" height="35" /> Conclusão:
 
   - **Pré-processamento**: Fase fundamental para garantir a qualidade dos dados. Verificação de valores nulos, duplicatas, transformações e exploração detalhada evitou inconsistências e permitiu análises confiáveis.  
   - **Relatório no Power BI**: Dados organizados em visualizações claras e interativas, com páginas segmentadas conforme tabelas e relacionamentos, facilitando a interpretação e geração de insights. Segmentadores tornam a navegação mais intuitiva e ágil.  
