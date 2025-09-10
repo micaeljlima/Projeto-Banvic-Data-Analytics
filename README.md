@@ -1,4 +1,4 @@
-# Projeto de Análise de Dados do Banco Vitória
+# Projeto: Análise de Dados do Banco Vitória
 ![banner](readme/banvic_logo.jpeg)
 
 ## Introdução:
