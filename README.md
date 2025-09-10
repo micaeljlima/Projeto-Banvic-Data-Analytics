@@ -3,7 +3,7 @@
 
 ## <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTg1bHhrN2YzaWtrcWgwN3R4am83dmtxdHJpbHJ4ZWQzbnA4MjRmaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/EV0co3ZK1v4o6Dx4SW/giphy.gif" alt="coin2" width="35" height="35" /> Introdução:
 Este projeto tem como foco a construção de um painel interativo no Power BI, como produto final, passando por etapas de pré-processamento, manipulação, modelagem e visualização de dados. Os dados utilizados pertencem a um banco fictício chamado Banco Vitória (ou “Banco Vic”).
-* [apresentacão em pdf](https://www.canva.com/design/DAGyVw_Dujw/spEMGroQSQcXudaAa-yJQg/view?utm_content=DAGyVw_Dujw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h0ca5afcf9e)
+* [apresentação em pdf](https://www.canva.com/design/DAGyVw_Dujw/spEMGroQSQcXudaAa-yJQg/view?utm_content=DAGyVw_Dujw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h0ca5afcf9e)
 
 ## <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWVld29ndmtoZWF4Z2c5NGYwcTBxd2k2MDJxcml0MGJvN3pxbHh6eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/ovMx9vlgBI6gy1RJAj/giphy.gif" alt="coin3" width="35" height="35" /> Arquitetura do Projeto:
 
