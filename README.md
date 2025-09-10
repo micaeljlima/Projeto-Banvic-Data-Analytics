@@ -3,6 +3,7 @@
 
 ## <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTg1bHhrN2YzaWtrcWgwN3R4am83dmtxdHJpbHJ4ZWQzbnA4MjRmaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/EV0co3ZK1v4o6Dx4SW/giphy.gif" alt="coin2" width="35" height="35" /> Introdução:
 Este projeto tem como foco a construção de um painel interativo no Power BI, como produto final, passando por etapas de pré-processamento, manipulação, modelagem e visualização de dados. Os dados utilizados pertencem a um banco fictício chamado Banco Vitória (ou “Banco Vic”).
+* [apresentacão em pdf](https://www.canva.com/design/DAGyVw_Dujw/spEMGroQSQcXudaAa-yJQg/view?utm_content=DAGyVw_Dujw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h0ca5afcf9e)
 
 ## <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWVld29ndmtoZWF4Z2c5NGYwcTBxd2k2MDJxcml0MGJvN3pxbHh6eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/ovMx9vlgBI6gy1RJAj/giphy.gif" alt="coin3" width="35" height="35" /> Arquitetura do Projeto:
 
@@ -36,7 +37,7 @@ No início, a instituição enfrenta diversos problemas relacionados à governan
 | Contas              | num_conta, cod_cliente, cod_agencia, cod_colaborador, tipo_conta, data_abertura, saldo_total, saldo_disponivel, data_ultimo_lancamento                                                                                                                           | Informações sobre contas bancárias. |
 | Proposta_Credito    | cod_proposta, cod_cliente, cod_colaborador, data_entrada_proposta, taxa_juros_mensal, valor_proposta, valor_financiamento, valor_entrada, valor_prestacao, quantidade_parcelas, carencia, status_proposta                                                        | Propostas de crédito solicitadas por clientes. |
 | Transacoes          | cod_transacao, num_conta, data_transacao, nome_transacao, valor_transacao                                                                                                                                                                                       | Registro de movimentações financeiras realizadas nas contas. |
-| Clientes_Externos   | Numero_Linha, ID_Cliente, Sobrenome, Pontuação_Credito, Pais, Genero, Idade, Tempo_Relacionamento, Saldo, Numero_Produtos, Possui_Cartao_Credito, Membro_Ativo, Salario_Estimado, Saiu, Reclamou, Pontuaçao_Satisfaçao, Tipo_Cartao, Pontos_Acumulados           | Dataset externo com informações complementares de clientes de outro banco. |
+| [Clientes_Externos](https://www.kaggle.com/datasets/radheshyamkollipara/bank-customer-churn)   | Numero_Linha, ID_Cliente, Sobrenome, Pontuação_Credito, Pais, Genero, Idade, Tempo_Relacionamento, Saldo, Numero_Produtos, Possui_Cartao_Credito, Membro_Ativo, Salario_Estimado, Saiu, Reclamou, Pontuaçao_Satisfaçao, Tipo_Cartao, Pontos_Acumulados           | Dataset externo com informações complementares de clientes de outro banco. |
 
 
 ## <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3FtcG5ja2swczY3Nnc3dXB2dnMwa2Z0aGxhbnlkbm93enJldGF3ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/sZyj9C8YAhoiMX80s1/giphy.gif" alt="coin7" width="35" height="35" /> Etapas do Desenvolvimento:
