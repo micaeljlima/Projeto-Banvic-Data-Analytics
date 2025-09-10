@@ -167,9 +167,78 @@ No início, a instituição enfrenta diversos problemas relacionados à governan
     └── notebooks                    <- caderno jupyter notebook utilizado para o pré-processamento de dados
 
 
+## Instruções para Configurar e Executar o Projeto:
+
+* **Pré-requisitos**:
+
+Antes de começar, certifique-se de que você tem o seguinte software instalado em sua máquina:
+  * Git: Para clonar o repositório.
+  * Python3: Para executar os scripts e notebooks.
+  * VS Code (recomendado): Com a extensão Jupyter instalada, para rodar os notebooks (.ipynb).
+
+* **Passo 1: Clonar o Repositório**:
+
+Abra o terminal e execute o seguinte comando para clonar o projeto:
+
+
+```
+git clone https://github.com/micaeljlima/Projeto-Banvic-Data-Analytics.git
+cd Projeto-Banvic-Data-Analytics
+```
+
+* **Passo 2: Criar e Ativar o Ambiente Virtual**:
+
+É altamente recomendável usar um ambiente virtual para isolar as dependências do projeto.
+
+1. Crie o ambiente virtual:
+```
+python -m venv .venv
+```
+2. Ative o ambiente virtual.
+
+  * Windows (PowerShell):
+```
+.venv\Scripts\Activate
+```
+
+  * Linux/macOS:
+    
+```
+source .venv/bin/activate
+```
+
+Após a ativação, o nome do ambiente (.venv) aparecerá no início da linha de comando.
+
+* **Passo 3: Instalar as Dependências**:
+
+Com o ambiente virtual ativado, instale todas as bibliotecas necessárias listadas no arquivo requirements.txt:
+
+```
+pip install -r requirements.txt
+```
+
+* **Passo 4: Configurar o VS Code e Executar o Notebook**
+
+1. Abra o projeto no VS Code:
+
+```
+code .
+```
+
+2. Selecione o interpretador Python:
+* No VS Code, abra a Paleta de Comandos (Ctrl + Shift + P).
+* Digite Python: Select Interpreter e pressione Enter.
+* Escolha o interpretador Python 3.x.x do ambiente .venv. Isso garante que o VS Code use as bibliotecas que você acabou de instalar.
+
+3. Rode o Notebook:
+* Navegue até a pasta notebooks.
+* Abra o arquivo data-processamento.ipynb.
+* O VS Code irá automaticamente usar o kernel do ambiente virtual. Agora você pode executar as células do notebook para processar e analisar os dados.
+
+
+
 ## Conclusão:
 
-- **Conclusão**:
   - **Pré-processamento**: Fase fundamental para garantir a qualidade dos dados. Verificação de valores nulos, duplicatas, transformações e exploração detalhada evitou inconsistências e permitiu análises confiáveis.  
   - **Relatório no Power BI**: Dados organizados em visualizações claras e interativas, com páginas segmentadas conforme tabelas e relacionamentos, facilitando a interpretação e geração de insights. Segmentadores tornam a navegação mais intuitiva e ágil.  
   - **Design e identidade visual**: Cores extraídas do banner oficial e utilização do mascote “Dolarinho” garantiram coerência estética e experiência agradável ao usuário.  
