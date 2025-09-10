@@ -98,6 +98,8 @@ No início, a instituição enfrenta diversos problemas relacionados à governan
   </tr>
 </table>
 
+[Link para o Painel](https://bit.ly/Painel-Banvic)
+
 - **Agências**:
   - Cartão com endereço (usado como filtro) e botões de interação (limpar filtros, alternar entre gráficos/tabelas).  
   - Indicadores: saldo total, saldo disponível, transações, contagem de agências, clientes e colaboradores.  
